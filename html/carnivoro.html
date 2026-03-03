@@ -2,27 +2,38 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Carnívoros - DinoWiki</title>
+    <title>Herbívoros | DinoMundo</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body class="fondo-carnivoro">
-    <header>
-        <h1>Carnívoros</h1>
-        <p class="definicion">Eran depredadores que se alimentaban de carne. Tenían dientes afilados y garras potentes.</p>
-        <a href="index.html" class="enlace-volver">⬅ Volver al menú</a>
-    </header>
+<body class="fondo-herbivoro">
+    <div class="container">
+        <header class="section-header">
+            <a href="index.html" class="btn-back">⬅ Volver</a>
+            <h1>Herbívoros</h1>
+            <div class="info-box">
+                <p>Eran los ingenieros del ecosistema. Consumían grandes cantidades de vegetación y solían vivir en manadas para protegerse de los depredadores.</p>
+            </div>
+        </header>
 
-    <main class="contenedor-galeria">
-        <div class="tarjeta">
-            <img src="https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?q=80&w=300" alt="T-Rex">
-            <h3>Tyrannosaurus Rex</h3>
-            <p>El rey de los dinosaurios con la mordida más fuerte de la historia.</p>
-        </div>
-        <div class="tarjeta">
-            <img src="https://images.unsplash.com/photo-1606856571913-b09e58f760aa?q=80&w=300" alt="Velociraptor">
-            <h3>Velociraptor</h3>
-            <p>Pequeño, rápido y un cazador muy inteligente en grupo.</p>
-        </div>
-    </main>
+        <section class="grid-dinos">
+            <article class="dino-box">
+                <div class="dino-img" style="background-image: url('https://images.unsplash.com/photo-1517921469429-8406e2361e23?auto=format&fit=crop&q=80&w=400');"></div>
+                <div class="dino-info">
+                    <h3>Brachiosaurus</h3>
+                    <p>Un coloso que podía medir hasta 13 metros de altura. Su cuello largo le permitía llegar donde nadie más podía.</p>
+                    <span class="tag">Jurásico</span>
+                </div>
+            </article>
+
+            <article class="dino-box">
+                <div class="dino-img" style="background-image: url('https://images.unsplash.com/photo-1559863345-02eae058c2c2?auto=format&fit=crop&q=80&w=400');"></div>
+                <div class="dino-info">
+                    <h3>Triceratops</h3>
+                    <p>Poseía un escudo óseo y tres cuernos letales. Era el equivalente prehistórico a un rinoceronte gigante.</p>
+                    <span class="tag">Cretácico</span>
+                </div>
+            </article>
+        </section>
+    </div>
 </body>
 </html>
