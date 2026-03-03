@@ -2,19 +2,35 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>DinoWiki - Inicio</title>
+    <title>DinoMundo | Inicio</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body class="fondo-inicio">
-    <div class="capa-oscura">
-        <header>
-            <h1>Mundo Dinosaurio</h1>
-            <p>Explora la vida prehistórica según su alimentación</p>
+    <div class="overlay">
+        <header class="main-header">
+            <h1>JURASSIC EXPLORER</h1>
+            <p>Descubre los secretos de la era mesozoica</p>
         </header>
-        <nav class="menu-principal">
-            <a href="herbivoros.html" class="boton h">Herbívoros</a>
-            <a href="carnivoros.html" class="boton c">Carnívoros</a>
-            <a href="omnivoros.html" class="boton o">Omnívoros</a>
+
+        <nav class="grid-menu">
+            <a href="herbivoros.html" class="card-link h-bg">
+                <div class="card-content">
+                    <h2>Herbívoros</h2>
+                    <span>Explorar Gigantes</span>
+                </div>
+            </a>
+            <a href="carnivoros.html" class="card-link c-bg">
+                <div class="card-content">
+                    <h2>Carnívoros</h2>
+                    <span>Explorar Depredadores</span>
+                </div>
+            </a>
+            <a href="omnivoros.html" class="card-link o-bg">
+                <div class="card-content">
+                    <h2>Omnívoros</h2>
+                    <span>Explorar Versátiles</span>
+                </div>
+            </a>
         </nav>
     </div>
 </body>
