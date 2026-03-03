@@ -2,27 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Herbívoros - DinoWiki</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Herbívoros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="fondo-herbivoro">
+<body class="herbivoro-bg">
     <header>
-        <h1>Herbívoros</h1>
-        <p class="definicion">Se alimentaban principalmente de plantas, hojas y helechos. Solían ser pacíficos, ¡pero muy grandes!</p>
-        <a href="index.html" class="enlace-volver">⬅ Volver al menú</a>
+        <h1>Dinosaurios Herbívoros</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="herbivoros.html">Herbívoros</a></li>
+                <li><a href="carnivoros.html">Carnívoros</a></li>
+                <li><a href="omnivoros.html">Omnívoros</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="contenedor-galeria">
-        <div class="tarjeta">
-            <img src="https://images.unsplash.com/photo-1517921469429-8406e2361e23?q=80&w=300" alt="Brachiosaurus">
-            <h3>Brachiosaurus</h3>
-            <p>Un gigante de cuello largo que alcanzaba las copas de los árboles.</p>
+    <section class="contenido">
+        <div class="definicion">
+            <h2>¿Qué son los herbívoros?</h2>
+            <p>Eran dinosaurios que se alimentaban de plantas. Algunos comían hierba a ras de suelo y otros usaban sus largos cuellos para alcanzar las copas de los árboles.</p>
         </div>
-        <div class="tarjeta">
-            <img src="https://images.unsplash.com/photo-1559863345-02eae058c2c2?q=80&w=300" alt="Triceratops">
-            <h3>Triceratops</h3>
-            <p>Famoso por sus tres cuernos y su escudo en la cabeza.</p>
+
+        <div class="galeria">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1519302959554-a75be0afc82a?w=400" alt="Brachiosaurus">
+                <h3>Brachiosaurus</h3>
+                <p>Un gigante de cuello largo que podía pesar hasta 80 toneladas.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559132141-86a0709f6e5a?w=400" alt="Triceratops">
+                <h3>Triceratops</h3>
+                <p>Famoso por sus tres cuernos y su gran escudo en la cabeza.</p>
+            </div>
         </div>
-    </main>
+    </section>
 </body>
 </html>
