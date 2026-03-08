@@ -1,4 +1,8 @@
 body {
+    background-color: red !important;
+}
+
+body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6; 
     color: #333;
@@ -6,7 +10,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 section, .container {
     max-width: 1000px;
